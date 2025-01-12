@@ -1,0 +1,45 @@
+.form-control {
+  width: 300px;
+  margin-top: 5px;
+}
+
+.mybtn {
+  margin: 20px 0 10px 0;
+  display: flex;
+  justify-content: center;
+}
+.customclr {
+  background-color: #2d5051;
+  border: none;
+}
+.customclr:hover {
+  background-color: #356163;
+}
+.btn-primary {
+  --bs-btn-active-bg: #5b8a8d;
+  --bs-btn-active-border-color: #589ea2;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-bg: #356163;
+  --bs-btn-disabled-border-color: #356163;
+}
+
+.row {
+  background-color: #60bfc1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 100vw;
+  height: 40vh;
+}
+.customfrm {
+  margin: 0px;
+}
+.row .form-label {
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 0px;
+  margin-top: 50px;
+}
